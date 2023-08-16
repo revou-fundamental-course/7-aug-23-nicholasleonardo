@@ -1,0 +1,86 @@
+body {
+    background-image: url('/assets/gelombang-putih.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+header {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 5px;
+    background-color: #133547;
+}
+
+img {
+    margin-left: 710px;
+    margin-right: 600px;
+}
+
+h1 {
+    text-align: center;
+    word-spacing: 1cm;
+}
+
+p {
+    font-family: monospace;
+    margin-left: 710px;
+    margin-right: 600px;
+}
+
+h3 {
+    margin-left: 745px;
+    margin-right: 600px;
+    font-size: 12px;
+}
+
+#triangleForm {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 6px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    background-color: blueviolet;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #46458C;
+}
+
+button:active {
+    transform: translateY(3px);
+    background-color: #512B81;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 15px;
+}

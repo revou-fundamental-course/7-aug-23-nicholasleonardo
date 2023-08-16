@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Triangle Calculator</title>
+    <link rel="stylesheet" href="/7-aug-23-nicholasleonardo/CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Kalkulator Matematik segitiga</h1>
+    </header>
+
+    <img src="/7-aug-23-nicholasleonardo/assets/segitiga.jpg">
+
+    <h3>
+        Rumus Luas = 1/2 x Alas x Tinggi
+        <br>
+        Rumus Keliling = S1+S2+S3
+    </h3>
+    
+    <form id="triangleForm">
+        <label for="sideA">Sisi A:</label>
+        <input type="number" id="sideA" required>
+
+        <label for="sideB">Sisi B:</label>
+        <input type="number" id="sideB" required>
+        
+        <label for="sideC">Sisi C:</label>
+        <input type="number" id="sideC" required>
+
+        <label for="alas">alas:</label>
+        <input type="number" id="alas" required>
+
+        <label for="tinggi">tinggi:</label>
+        <input type="number" id="tinggi" required>
+        
+        <section>
+            <button type="button" onclick="hitung()">Hitung</button>
+            <button type="button" onclick="resetForm()">Reset</button>
+        </section>
+    </form>
+
+    <p id="luas"></p>
+    <p id="keliling"></p> 
+
+    <script src="/7-aug-23-nicholasleonardo/JS/index.js"></script>
+</body>
